@@ -1,9 +1,12 @@
-import { Get, Controller } from '@nestjs/common';
+import {Get, Controller, Param, Req} from '@nestjs/common';
 
 @Controller()
 export class AppController {
 	@Get()
-	root(): string {
+	root(@Param() params): string {
+    let p = params;
+    console.log(`p: ${JSON.stringify(p)}`);
+    // request.params[param]
     return 'Hello World!';
   }
 }

@@ -1,6 +1,8 @@
 ## Description
 
-Backend for ***Falcon Currency Converter*** https://converter-6e915.firebaseapp.com/
+Backend now here: https://falcon-converter.herokuapp.com
+
+***Falcon Currency Converter***: https://converter-6e915.firebaseapp.com/
   
 ## Installation
 

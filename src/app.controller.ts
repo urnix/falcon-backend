@@ -10,9 +10,6 @@ export class AppController {
       let value = params.value;
       console.log(`value: ${JSON.stringify(value)}`);
       let result = value * 67.50;
-      console.log(`result: ${JSON.stringify(result)}`);
-      console.log(`isNumber(result): ${JSON.stringify(isNumber(result))}`);
-      console.log(`result !== null: ${JSON.stringify(result !== null)}`);
       if (isNumber(result) && result !== null && result !== undefined && !isNaN(result)) {
         return result;
       } else {

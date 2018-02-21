@@ -21,7 +21,8 @@ export class AppController {
         } catch (error) {
             // console.error(error);
             console.log('ERROR');
-            return 'Something went wrong';
+            // return 'Something went wrong';
+            return 'Visit application here <a href="https://converter-6e915.firebaseapp.com">https://converter-6e915.firebaseapp.com</a>';
         }
     }
 
